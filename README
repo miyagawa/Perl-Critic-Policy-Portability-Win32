@@ -5,9 +5,11 @@ NAME
 SYNOPSIS
       # .perlcriticrc
       [Portability::Win32]
+      severity = 5
 
 DESCRIPTION
-    Perl::Critic::Policy::Portability::Win32 is
+    Perl::Critic::Policy::Portability::Win32 is a policy for Perl::Critic to
+    find unsafe built-in function that might fail on Win32 platform.
 
 AUTHOR
     Tatsuhiko Miyagawa <miyagawa@bulknews.net>
@@ -17,3 +19,7 @@ LICENSE
     under the same terms as Perl itself.
 
 SEE ALSO
+    perlport
+    <http://docs.activestate.com/activeperl/5.8/faq/Windows/ActivePerl-Winfa
+    q5.html>
+
