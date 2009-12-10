@@ -1,8 +1,10 @@
 NAME
-    Perl::Critic::Policy::Portability::Win32 -
+    Perl::Critic::Policy::Portability::Win32 - Critiques unsafe functions
+    for Win32 portability
 
 SYNOPSIS
-      use Perl::Critic::Policy::Portability::Win32;
+      # .perlcriticrc
+      [Portability::Win32]
 
 DESCRIPTION
     Perl::Critic::Policy::Portability::Win32 is

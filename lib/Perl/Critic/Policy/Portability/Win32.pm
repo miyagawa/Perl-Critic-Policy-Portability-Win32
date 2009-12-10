@@ -40,15 +40,18 @@ __END__
 
 =head1 NAME
 
-Perl::Critic::Policy::Portability::Win32 -
+Perl::Critic::Policy::Portability::Win32 - Critiques unsafe functions for Win32 portability
 
 =head1 SYNOPSIS
 
-  use Perl::Critic::Policy::Portability::Win32;
+  # .perlcriticrc
+  [Portability::Win32]
+  severity = 5
 
 =head1 DESCRIPTION
 
-Perl::Critic::Policy::Portability::Win32 is
+Perl::Critic::Policy::Portability::Win32 is a policy for Perl::Critic
+to find unsafe built-in function that might fail on Win32 platform.
 
 =head1 AUTHOR
 
@@ -60,5 +63,7 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =head1 SEE ALSO
+
+L<perlport> L<http://docs.activestate.com/activeperl/5.8/faq/Windows/ActivePerl-Winfaq5.html>
 
 =cut
